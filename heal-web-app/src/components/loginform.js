@@ -53,7 +53,7 @@ const LoginForm = () => {
             LOGIN
           </Button>
         </Form>
-        <div style={{ textAlign: "center", fontSize: '14px' }}>Not registered? <a href="https://www.youtube.com/watch?v=VZrDxD0Za9I" style={{ color: '#9FC856' }}>Register</a></div>
+        <div style={{ textAlign: "center", fontSize: '14px' }}>Not registered? <a href="/register" style={{ color: '#9FC856' }}>Register</a></div>
 
       </Card>
     </div>

@@ -1,9 +1,18 @@
+import RegisterForm from '../components/registerform';
+import Footer from '../components/footer';
+import { Container } from "react-bootstrap";
+
+
 
 const RegisterPage = () => {
 
     return (
   
-      <div>     
+      <div>
+        <Container>
+          <RegisterForm/>
+        </Container>
+        <Footer/>
       </div>
   
     );

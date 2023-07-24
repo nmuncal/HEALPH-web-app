@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact={true} path="/" element={< LoginPage />} />
+        <Route exact={true} path="/register" element={< RegisterPage />} />
       </Routes>
     </BrowserRouter>
   </div>
